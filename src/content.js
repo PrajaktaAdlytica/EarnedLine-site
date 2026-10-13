@@ -32,7 +32,7 @@ export const sections={
  s('Begin where the new evidence is strongest.','The first proposed pilot is custom-contract reconciliation: one billing/CRM export pair and 20 contract-months under NDA. Expand only when finance validates previously unknown gaps and the value exceeds integration and review cost.','scope',['Contract reconciliation','One narrow stack','Paid pilot gate'])
  ],
  why:[
- s('Find the missing step.','Correctly billed but unpaid and earned but not correctly billed are distinct problems. First establish which record is missing or diverging.','fork',[], 'wide'),
+ s('Find the missing step.','Correctly billed but unpaid and earned but not correctly billed are distinct problems. First establish which record is missing or diverging.','revenue-path-sequence',[], 'wide'),
  s('Start with the tools already in the stack.','Stripe Billing, Chargebee, reconciliation processes, analysts and collections teams are substantial substitutes. Their capabilities establish overlap; they do not establish demand for EarnedLine.','substitutes',['Billing platform','Reconciliation','Revenue analyst','Collections'], 'statement'),
  s('The question crosses four sources.','A negotiated clause can diverge from CRM entitlements, metered usage and invoice lines. Preserve the effective dates and source identifiers instead of flattening those differences.','lineage',['Signed terms','CRM entitlements','Usage period','Invoice line']),
  s('Count only what changes the decision.','Finance labels already-known items and invalid candidates before calling a finding incremental. Integration effort and reviewer time belong in the same assessment.','evaluation',['Previously unknown','Already known','Invalid','Review effort'],'dark'),
