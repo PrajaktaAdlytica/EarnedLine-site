@@ -187,3 +187,9 @@ html.motion-reduced{scroll-behavior:auto}html.motion-reduced *,html.motion-reduc
 @media(max-width:600px){.guide-sequence-heading h4{font-size:20px;line-height:1.3}.guide-sequence-heading .eyebrow{font-size:8px;line-height:1.8}.guide-sequence-list{gap:12px}.guide-sequence-list>li{gap:9px}.guide-sequence-number{width:26px;height:26px;font-size:8px}.guide-sequence-list>li:not(:last-child):after{left:12px}.guide-sequence-item{padding:13px 11px;gap:9px}.guide-sequence-item>.icon{width:17px;height:17px}.guide-sequence-item small{font-size:8px}.guide-sequence-item b{font-size:15px;margin:6px 0}.guide-sequence-item>div>span{font-size:9px;line-height:1.8}.guide-sequence-item>a{width:32px;height:32px}.narrative-section[data-section="resources-0"]:after,.guide-content>.narrative-section:nth-child(odd):after{inset:16px 10px}}
 @media(prefers-reduced-motion:reduce){.guide-sequence-item,.guide-sequence-number{transition:none}}
 .motion-reduced .guide-sequence-item,.motion-reduced .guide-sequence-number{transition:none}
+/* Horizontal viewport entrances use the independent translate property so
+   existing card flips and diagram transforms retain their own geometry. */
+.app{overflow-x:clip}
+.scroll-entrance-item{animation:none!important}
+@media(prefers-reduced-motion:reduce){.scroll-entrance-item{translate:none!important;opacity:1!important}}
+.motion-reduced .scroll-entrance-item{translate:none!important;opacity:1!important}
