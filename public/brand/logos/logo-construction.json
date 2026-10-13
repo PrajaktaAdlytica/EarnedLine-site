@@ -1,0 +1,14 @@
+{
+  "name": "Line Signature",
+  "source_font": "Manrope 800, SIL OFL",
+  "outlines": true,
+  "custom_glyphs": [
+    "E",
+    "L extended baseline"
+  ],
+  "viewBox": "0 24 556.5 111",
+  "minimum_wordmark_width_px": 132,
+  "clear_space": "at least 0.5 capital E height on all sides",
+  "minimum_mark_size_px": 16,
+  "letter_case": "EarnedLine"
+}

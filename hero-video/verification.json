@@ -1,0 +1,110 @@
+{
+  "video_metadata": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 1440,
+        "height": 900,
+        "r_frame_rate": "30/1",
+        "duration": "18.000000",
+        "nb_frames": "540"
+      }
+    ],
+    "format": {
+      "duration": "18.000000",
+      "size": "918695"
+    }
+  },
+  "progressive_playback": "moov atom precedes mdat",
+  "audio_tracks": 0,
+  "visual_verification": {
+    "decoded_frames_seconds": [
+      1,
+      5,
+      8,
+      13,
+      16
+    ],
+    "poster_desktop": "checked at native 1440\u00d7900",
+    "poster_mobile": "checked at native 540\u00d71080"
+  },
+  "claims": "All records are fictional. $80 gross candidate is NOT VERIFIED; credit CR-40 applicability remains pending. Historical billability unassessed. No invoice or customer message is sent.",
+  "typescript_check": "pass",
+  "dependency_audit": "0 vulnerabilities",
+  "assets": [
+    {
+      "file": "public/media/earnedline-hero.mp4",
+      "bytes": 918695,
+      "sha256": "edb37f5c372b77e3d936edbb6db327521cc8885b202805e1c02e65f0e42d10c2"
+    },
+    {
+      "file": "public/media/earnedline-hero-poster.png",
+      "bytes": 250677,
+      "sha256": "b9c7b19022d903ca5d6f088eba52d12df58e2a189c2d6f46d9cebeda51b715b0",
+      "dimensions": [
+        1440,
+        900
+      ]
+    },
+    {
+      "file": "public/media/earnedline-hero-mobile.png",
+      "bytes": 114097,
+      "sha256": "dfb78f42c25ca3a5c720adff392bfac31c0cd29df1e27d1207239bd077792ec8",
+      "dimensions": [
+        540,
+        1080
+      ]
+    },
+    {
+      "file": "public/media/earnedline-hero-mobile.mp4",
+      "bytes": 192945,
+      "sha256": "aa2949b131a07a6d1ba19300e1be4d782c39466146e0c0ef2da366c64178c7a4"
+    }
+  ],
+  "fixture_consistency": {
+    "contract_id": "CT-22",
+    "clause_id": "C-22",
+    "signed_date": "2026-08-12",
+    "effective_date": "2026-09-01",
+    "usage_source_id": "USG-SEP22",
+    "invoice_id": "I-88",
+    "credit_id": "CR-40",
+    "check": "Canonical JSX, both posters and decoded frames at 1/5/8/13/16 seconds agree."
+  },
+  "mobile_video_metadata": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 540,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "duration": "18.000000",
+        "nb_frames": "540"
+      }
+    ],
+    "format": {
+      "duration": "18.000000",
+      "size": "192945"
+    }
+  },
+  "mobile_visual_verification": {
+    "decoded_frames_seconds": [
+      1,
+      5,
+      8,
+      13,
+      16
+    ],
+    "dimensions": [
+      540,
+      1080
+    ],
+    "labels": "DEMO, CONCEPT PREVIEW and NOT VERIFIED persist throughout.",
+    "sources": "CT-22/C-22 signed 12 Aug 2026; effective 01 Sep 2026; USG-SEP22; I-88; CR-40.",
+    "progressive_playback": "moov precedes mdat"
+  }
+}

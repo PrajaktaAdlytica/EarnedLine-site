@@ -1,0 +1,66 @@
+{
+  "composition": "EarnedLineMobileHero",
+  "duration_seconds": 18,
+  "frames_per_second": 30,
+  "dimensions": [
+    540,
+    1080
+  ],
+  "stages": [
+    {
+      "seconds": [
+        0,
+        4.1
+      ],
+      "visual": "Executed clause; highlight reveals from 1.1 to 2.4 seconds"
+    },
+    {
+      "seconds": [
+        4.1,
+        4.9
+      ],
+      "visual": "Usage card slides in from left"
+    },
+    {
+      "seconds": [
+        6.5,
+        7.3
+      ],
+      "visual": "Invoice card slides in from right"
+    },
+    {
+      "seconds": [
+        9.5,
+        10.3
+      ],
+      "visual": "Candidate discrepancy shutter reveals"
+    },
+    {
+      "seconds": [
+        12.3,
+        13.1
+      ],
+      "visual": "Pending-credit card rises"
+    },
+    {
+      "seconds": [
+        14.2,
+        15
+      ],
+      "visual": "Held-review panel settles into place"
+    },
+    {
+      "seconds": [
+        17.2,
+        18
+      ],
+      "visual": "Return to clause for loop"
+    }
+  ],
+  "fixed_labels": [
+    "DEMO \u2014 SYNTHETIC DATA",
+    "CONCEPT PREVIEW",
+    "NOT VERIFIED"
+  ],
+  "blocked_actions": "No invoice or customer message is sent; correction export held."
+}

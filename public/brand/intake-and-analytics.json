@@ -1,0 +1,97 @@
+{
+  "fields": [
+    {
+      "id": "work_email",
+      "type": "email",
+      "required": true
+    },
+    {
+      "id": "company",
+      "type": "text",
+      "required": true
+    },
+    {
+      "id": "role",
+      "type": "select",
+      "required": true
+    },
+    {
+      "id": "offer_id",
+      "type": "select",
+      "values": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "required": true
+    },
+    {
+      "id": "billing_system",
+      "type": "text",
+      "required": false
+    },
+    {
+      "id": "crm",
+      "type": "text",
+      "required": false
+    },
+    {
+      "id": "sample_readiness",
+      "type": "select",
+      "required": false
+    },
+    {
+      "id": "inquiry_consent",
+      "type": "checkbox",
+      "required": true,
+      "default": false
+    },
+    {
+      "id": "marketing_consent",
+      "type": "checkbox",
+      "required": false,
+      "default": false
+    }
+  ],
+  "public_uploads": false,
+  "analytics": [
+    "landing_view",
+    "buyer_qualified",
+    "offer_12_selected",
+    "demo_open",
+    "evidence_view",
+    "override_view",
+    "price_view",
+    "pilot_request",
+    "consent_submit"
+  ],
+  "analytics_context": [
+    "selected_offer_id",
+    "utm_source",
+    "utm_campaign",
+    "price_version",
+    "consent_version"
+  ],
+  "exclude_analytics": [
+    "raw records",
+    "customer identifiers",
+    "contract text",
+    "financial amounts"
+  ],
+  "pricing": {
+    "pilot_usd": 3000,
+    "ongoing_usd": [
+      2000,
+      6000
+    ],
+    "status": "Hypothetical test pricing, not active offers"
+  },
+  "go": "Finance validates material previously unknown gaps, burden is justified, paid pilot and permissioned access committed",
+  "stop": [
+    "Current platform reports same exceptions",
+    "Contract ambiguity unsafe",
+    "Integration and review effort exceeds value"
+  ]
+}

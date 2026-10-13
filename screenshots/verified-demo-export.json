@@ -1,0 +1,46 @@
+{
+  "disclosure": "DEMO — SYNTHETIC DATA / CONCEPT PREVIEW",
+  "record": {
+    "id": "D-001",
+    "company": "Acme Analytics",
+    "contract": "CT-22",
+    "clause": "C-22",
+    "invoice": "I-88",
+    "module": "contract",
+    "candidate": 80,
+    "state": "Approved illustrative export",
+    "owner": "Mira Chen",
+    "next_action": "Synthetic clause and invoice reviewed; CR-40 applies in this fictional branch. Historical billability approval is simulated.",
+    "credit": 40,
+    "credit_id": "CR-40",
+    "billability": "Approved in a fictional scenario",
+    "period": "Sep 2026"
+  },
+  "sources": [
+    "CT-22/C-22",
+    "USG-SEP22",
+    "I-88",
+    "CR-40"
+  ],
+  "source_dates": {
+    "signed": "2026-08-12",
+    "effective": "2026-09-01",
+    "usage_period": "2026-09"
+  },
+  "assumptions": {
+    "events": 12000,
+    "included": 10000,
+    "rate": 0.04
+  },
+  "gross_candidate_usd": 80,
+  "credit_usd": 40,
+  "credit_applicability": "applies",
+  "conditional_net_usd": 40,
+  "review_category": "Historical review",
+  "reviewer_reason": "Synthetic clause and invoice reviewed; CR-40 applies in this fictional branch. Historical billability approval is simulated.",
+  "historical_billability": "Approved in a fictional scenario",
+  "contract_approval": "Simulated approval in a fictional scenario",
+  "invoiced_correction_usd": null,
+  "collected_usd": null,
+  "external_actions_executed": false
+}

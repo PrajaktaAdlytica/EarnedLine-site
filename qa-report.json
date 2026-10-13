@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-13",
+  "scope": "Production static concept website",
+  "routes": 27,
+  "static_route_files": "passed",
+  "local_links_assets_anchors": "passed",
+  "build": "passed",
+  "browser": {
+    "desktop": "1440x900, all27 routes, no overflow or missing images",
+    "mobile": "390x844, all27 routes, no overflow or missing images",
+    "hydration": "correct route HTML; final27-route pass had zero errors",
+    "navigation": "mega menus, Escape dismissal, mobile focus trap/restoration passed",
+    "keyboard": "module arrows, flip controls passed",
+    "forms": "consent and local draft confirmation passed; no transmission",
+    "review": "reason required; credit resolution and proposal required; simulated approval gates export; external sends/writes disabled",
+    "motion": "play/pause/chapters, portrait source and reduced poster checked",
+    "export": "Actual downloaded JSON verified: DEMO watermark, grossUSD80, conditional netUSD40, consistent simulated billability, null collected cash, no external actions",
+    "labels": "Persistent explicit form/control label associations; real export flow tested",
+    "tablet": "1024px homepage, no horizontal overflow"
+  },
+  "hero": {
+    "desktop": "18s,1440x900,30fps,silent H.264",
+    "mobile": "18s,540x1080,30fps,silent H.264"
+  },
+  "boundaries": [
+    "No production authentication or form delivery",
+    "No real customer or financial records",
+    "No actual billing or external system actions",
+    "Hypothetical pricing; draft legal notices",
+    "Social profile URLs and custom domain not supplied"
+  ]
+}

@@ -1,0 +1,98 @@
+[
+  {
+    "pair": "Main text",
+    "foreground": "#192019",
+    "background": "#F7F7F2",
+    "ratio": 15.48,
+    "target": 4.5,
+    "passes": true
+  },
+  {
+    "pair": "Secondary text",
+    "foreground": "#56604F",
+    "background": "#F7F7F2",
+    "ratio": 6.14,
+    "target": 4.5,
+    "passes": true
+  },
+  {
+    "pair": "Homepage button",
+    "foreground": "#FFFFFF",
+    "background": "#46533B",
+    "ratio": 8.2,
+    "target": 4.5,
+    "passes": true
+  },
+  {
+    "pair": "Product button",
+    "foreground": "#FFFFFF",
+    "background": "#215E55",
+    "ratio": 7.51,
+    "target": 4.5,
+    "passes": true
+  },
+  {
+    "pair": "Focus / light",
+    "foreground": "#215E55",
+    "background": "#F7F7F2",
+    "ratio": 6.99,
+    "target": 3,
+    "passes": true
+  },
+  {
+    "pair": "Control border",
+    "foreground": "#828E7C",
+    "background": "#FFFFFF",
+    "ratio": 3.44,
+    "target": 3,
+    "passes": true
+  },
+  {
+    "pair": "Held status",
+    "foreground": "#8A4B10",
+    "background": "#FFF0DA",
+    "ratio": 6.05,
+    "target": 4.5,
+    "passes": true
+  },
+  {
+    "pair": "Success status",
+    "foreground": "#276146",
+    "background": "#E8F2EA",
+    "ratio": 6.35,
+    "target": 4.5,
+    "passes": true
+  },
+  {
+    "pair": "Error status",
+    "foreground": "#9E3840",
+    "background": "#FBEAEC",
+    "ratio": 5.85,
+    "target": 4.5,
+    "passes": true
+  },
+  {
+    "pair": "Information status",
+    "foreground": "#275C8F",
+    "background": "#E9F0F7",
+    "ratio": 6.06,
+    "target": 4.5,
+    "passes": true
+  },
+  {
+    "pair": "Dark secondary",
+    "foreground": "#BED1C7",
+    "background": "#122B27",
+    "ratio": 9.38,
+    "target": 4.5,
+    "passes": true
+  },
+  {
+    "pair": "Dark control border",
+    "foreground": "#57766B",
+    "background": "#122B27",
+    "ratio": 3.01,
+    "target": 3,
+    "passes": true
+  }
+]

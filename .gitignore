@@ -1,0 +1,6 @@
+node_modules/
+server-build/
+dist/
+.DS_Store
+.env*
+hero-video/node_modules/
