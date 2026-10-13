@@ -193,3 +193,9 @@ html.motion-reduced{scroll-behavior:auto}html.motion-reduced *,html.motion-reduc
 .scroll-entrance-item{animation:none!important}
 @media(prefers-reduced-motion:reduce){.scroll-entrance-item{translate:none!important;opacity:1!important}}
 .motion-reduced .scroll-entrance-item{translate:none!important;opacity:1!important}
+
+/* The film uses the selected E symbol rather than a two-line placeholder. */
+.film-topbar .tiny-mark{width:20px;height:20px;border:0;object-fit:contain}
+
+/* The film uses the selected E symbol rather than a two-line placeholder. */
+.film-topbar .tiny-mark{width:20px;height:20px;border:0;object-fit:contain}
