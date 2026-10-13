@@ -40,8 +40,8 @@ export const sections={
  s('Begin with one repeatable job.','Start with custom-contract mismatches. Expand into usage, renewals and collections only when verified value exceeds the cost of integration and review.','scope',['Contract reconciliation','One billing/CRM pair','20 contract-months'])
  ],
  how:[
- s('Agree the sample before receiving it.','Scope one billing/CRM pair, select 20 contract-months and agree NDA, permission and handling. No source documents are uploaded through this public website.','bundle',['Executed terms','Usage exports','Invoice lines','Credits'], 'wide'),
- s('Give each source an identity.','Map contract, CRM customer, usage account and invoice identifiers. Retain effective periods and transformation assumptions so the reviewer can follow the linkage.','lineage',['CT-22','CRM-A22','USG-SEP22','I-88']),
+ s('Agree the sample before receiving it.','Scope one billing/CRM pair, select 20 contract-months and agree NDA, permission and handling. No source documents are uploaded through this public website.','sample-intake',['Executed terms','Usage exports','Invoice lines','Credits'], 'wide'),
+ s('Give each source an identity.','Map contract, CRM customer, usage account and invoice identifiers. Retain effective periods and transformation assumptions so the reviewer can follow the linkage.','source-sequence',['CT-22','CRM-A22','USG-SEP22','I-88']),
  s('Keep the clause in view.','Show the executed span alongside the interpreted term. For the fictional example: 10,000 events are included, then $0.04 per additional event.','clause',['C-22 · signed 12 Aug','Effective 1 Sep','10,000 included','$0.04 extra']),
  s('Treat the gap as a candidate.','12,000 metered events against 10,000 included yields a gross $80 candidate. The omitted invoice line and existing $40 credit must still be reviewed.','diff',[],'dark'),
  s('An override needs a reason.','The owner can mark a candidate already known, invalid, future-preventable or confirmed for further historical review. Preserve the evidence and the reason for each state change.','override',['Known','Invalid','Future-preventable','Historical review']),
