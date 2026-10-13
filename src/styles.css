@@ -199,3 +199,25 @@ html.motion-reduced{scroll-behavior:auto}html.motion-reduced *,html.motion-reduc
 
 /* The film uses the selected E symbol rather than a two-line placeholder. */
 .film-topbar .tiny-mark{width:20px;height:20px;border:0;object-fit:contain}
+
+/* Summit of Sources — a finite opening film above the original hero. */
+.entry-intro{background:#122B27;color:#F7F7F2;position:relative}
+.entry-film{position:relative;aspect-ratio:16/9;overflow:hidden}
+.entry-film video,.entry-poster,.entry-poster img{display:block;width:100%;height:100%;position:absolute;inset:0;object-fit:contain}
+.entry-film video{opacity:0}.entry-film video.has-frame{opacity:1}
+.entry-progress{position:absolute;bottom:0;left:0;width:100%;height:2px;background:#DCE7A326}
+.entry-progress span{display:block;height:100%;background:#DCE7A3}
+.entry-toolbar{display:flex;justify-content:space-between;align-items:center;gap:24px;padding:18px clamp(20px,4vw,64px);border-bottom:1px solid #C5E1D133}
+.entry-chapter{font-size:12px;letter-spacing:1.4px;text-transform:uppercase;color:#F7F7F2;line-height:1.6}
+.entry-chapter small{display:block;font-size:10px;letter-spacing:.6px;color:#BED1C7;margin-top:3px}
+.entry-actions{display:flex;align-items:center;gap:8px}
+.entry-actions button{display:flex;align-items:center;justify-content:center;gap:8px;border:1px solid #C5E1D144;background:#C5E1D10A;color:#F7F7F2;padding:11px 15px;border-radius:7px;font-family:inherit;font-size:12px;cursor:pointer;min-height:42px;transition:background .18s,border-color .18s}
+.entry-actions button:hover{background:#C5E1D122;border-color:#C5E1D199}
+.entry-actions button:focus-visible{outline:2px solid #DCE7A3;outline-offset:3px}
+.entry-actions button:disabled{opacity:.45;cursor:default}
+.entry-actions .entry-skip{background:#F7F7F2;color:#192019;border-color:#F7F7F2;margin-left:6px}
+.entry-actions .entry-skip:hover{background:#DCE7A3;border-color:#DCE7A3}
+.entry-transcript{padding:12px clamp(20px,4vw,64px);font-size:11px;color:#BED1C7;background:#122B27}
+.entry-transcript summary{cursor:pointer;width:fit-content}.entry-transcript p{max-width:920px;line-height:1.7;font-size:13px;padding:10px 0}
+#home-hero{scroll-margin-top:84px;outline:none}
+@media(max-width:700px){.entry-film{aspect-ratio:3/4}.entry-toolbar{padding:16px 20px;display:block}.entry-chapter{font-size:10px;letter-spacing:.8px}.entry-chapter small{font-size:9px}.entry-actions{margin-top:13px;gap:7px;justify-content:flex-end}.entry-actions button{font-size:11px;padding:10px 13px}.entry-transcript{padding:11px 20px}#home-hero{scroll-margin-top:74px}}

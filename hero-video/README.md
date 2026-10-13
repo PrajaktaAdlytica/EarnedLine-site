@@ -21,3 +21,7 @@ Executed Acme Analytics agreement CT-22 / clause C-22 (signed 12 Aug 2026, effec
 ## Fonts and rights
 
 Manrope and IBM Plex Sans are bundled under their included SIL Open Font Licenses. EarnedLine logo uses the selected original Line Signature vector. All other film visuals are authored in JSX with synthetic content; no competitor UI or logo is reproduced. Remotion project dependencies are isolated from the website bundle. Check Remotion’s applicable license before adopting the renderer commercially.
+
+## Summit of Sources opening film
+
+The separate 18-second opening composition is EarnedLineIntro (1920 × 1080, 30fps), with EarnedLineIntroMobile (900 × 1200). Render using npm run render:intro or npm run render:intro-mobile. IntroComposition.tsx holds the native interface layers and camera transforms; public/intro/alpine.png is the generated landscape background. The website mounts IntroVideo above the original hero, with pause, replay, skip, transcript and reduced-motion poster. The approved SVG wordmark is used directly.

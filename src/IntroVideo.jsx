@@ -1,0 +1,23 @@
+import React,{useEffect,useRef,useState} from 'react';
+import {Icon} from './Visuals.jsx';
+
+// The introduction plays once. Native scrolling, explicit pause and motion
+// preferences remain in control; visibility only pauses/resumes user intent.
+export function IntroVideo(){
+ const video=useRef(null),section=useRef(null),visible=useRef(true);
+ const [ready,setReady]=useState(false),[mobile,setMobile]=useState(false),[reduced,setReduced]=useState(false),[wanted,setWanted]=useState(true),[playing,setPlaying]=useState(false),[ended,setEnded]=useState(false),[time,setTime]=useState(0),[failed,setFailed]=useState(false),[hasFrame,setHasFrame]=useState(false);
+ useEffect(()=>{const narrow=matchMedia('(max-width:700px)'),motion=matchMedia('(prefers-reduced-motion:reduce)');const sync=()=>{setMobile(narrow.matches);setReduced(motion.matches||document.documentElement.classList.contains('motion-reduced'))};sync();setReady(true);narrow.addEventListener('change',sync);motion.addEventListener('change',sync);window.addEventListener('earnedline-motion',sync);return()=>{narrow.removeEventListener('change',sync);motion.removeEventListener('change',sync);window.removeEventListener('earnedline-motion',sync)}},[]);
+ useEffect(()=>{const v=video.current;if(!v)return;const sync=()=>{if(wanted&&!reduced&&!ended&&visible.current&&!document.hidden){v.play().catch(()=>setPlaying(false))}else v.pause()};const io=new IntersectionObserver(es=>{visible.current=es[0].isIntersecting;sync()},{threshold:.18});io.observe(section.current);document.addEventListener('visibilitychange',sync);sync();return()=>{io.disconnect();document.removeEventListener('visibilitychange',sync);v.pause()}},[wanted,reduced,ended,mobile,ready]);
+ const poster=mobile?'/media/earnedline-intro-mobile-poster.jpg':'/media/earnedline-intro-poster.jpg';
+ function replay(){if(reduced||failed)return;const v=video.current;if(!v)return;v.currentTime=0;setTime(0);setEnded(false);setWanted(true);v.play().catch(()=>setPlaying(false))}
+ function skip(){video.current?.pause();setWanted(false);const hero=document.getElementById('home-hero');hero?.scrollIntoView({behavior:reduced?'instant':'smooth',block:'start'});hero?.focus({preventScroll:true})}
+ return <section className="entry-intro" ref={section} aria-label="EarnedLine opening film" data-playing={playing} data-motion-reduced={reduced} data-ended={ended}>
+  <div className="entry-film">
+   <picture className="entry-poster"><source media="(max-width:700px)" srcSet="/media/earnedline-intro-mobile-poster.jpg"/><img src="/media/earnedline-intro-poster.jpg" alt="EarnedLine evidence review above an alpine ridge: signed terms, usage and an invoice lead to an unverified candidate held for finance review." fetchPriority="high"/></picture>
+   {ready&&!reduced&&!failed&&<video key={mobile?'mobile':'desktop'} className={hasFrame?'has-frame':''} ref={video} src={mobile?'/media/earnedline-intro-mobile.mp4':'/media/earnedline-intro.mp4'} poster={poster} muted playsInline preload="metadata" aria-label="18 second cinematic introduction to EarnedLine" onLoadedData={()=>setHasFrame(true)} onPlay={()=>{setHasFrame(true);setPlaying(true)}} onPause={()=>setPlaying(false)} onTimeUpdate={e=>setTime(e.currentTarget.currentTime)} onEnded={()=>{setEnded(true);setPlaying(false)}} onError={()=>{setFailed(true);setPlaying(false)}}/>}
+   <div className="entry-progress" aria-hidden="true"><span style={{width:`${reduced||failed||ended?100:Math.min(100,time/18*100)}%`}}/></div>
+  </div>
+  <div className="entry-toolbar"><span className="entry-chapter">{reduced?'Still preview · motion reduced':failed?'Still preview':time<5?'01 / Follow the source':time<10?'02 / Compare the records':'03 / Keep the decision with finance'}<small>18 second intro · Synthetic data</small></span><div className="entry-actions"><button disabled={reduced||failed} onClick={()=>{if(ended){replay();return}setWanted(!playing)}} aria-label={ended?'Play intro again':playing?'Pause intro':'Play intro'}><Icon name={playing?'pause':'play'} size={14}/>{playing?'Pause':'Play'}</button><button disabled={reduced||failed} onClick={replay}><Icon name="rotate-ccw" size={14}/>Replay</button><button onClick={skip} className="entry-skip">Skip to hero <Icon name="arrow-right" size={14}/></button></div></div>
+  <details className="entry-transcript"><summary>Read the intro story</summary><p>Signed agreement CT-22 includes 10,000 events per month and $0.04 per additional event. September usage shows 12,000 events. Invoice I-88 contains a $2,000 base fee and no usage overage line. The $80 candidate is unverified. The existing $40 credit has pending applicability. Finance retains the review decision; no invoice, message or system write executes.</p></details>
+ </section>
+}

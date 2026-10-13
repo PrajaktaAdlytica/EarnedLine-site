@@ -26,6 +26,8 @@
     "render:hero": "remotion render EarnedLineHero ../public/media/earnedline-hero.mp4 --codec=h264 --crf=23 --concurrency=1 --image-format=png --x264-preset=fast --chrome-mode=chrome-for-testing",
     "poster:desktop": "remotion still EarnedLinePoster ../public/media/earnedline-hero-poster.png --chrome-mode=chrome-for-testing",
     "poster:mobile": "remotion still EarnedLineMobile ../public/media/earnedline-hero-mobile.png --chrome-mode=chrome-for-testing",
-    "render:mobile": "remotion render EarnedLineMobileHero ../public/media/earnedline-hero-mobile.mp4 --codec=h264 --crf=23 --concurrency=1 --image-format=png --x264-preset=fast --chrome-mode=chrome-for-testing"
+    "render:mobile": "remotion render EarnedLineMobileHero ../public/media/earnedline-hero-mobile.mp4 --codec=h264 --crf=23 --concurrency=1 --image-format=png --x264-preset=fast --chrome-mode=chrome-for-testing",
+    "render:intro": "remotion render EarnedLineIntro ../../earnedline-intro-video/earnedline-intro.mp4 --codec=h264 --crf=17 --concurrency=2 --image-format=png --chrome-mode=chrome-for-testing",
+    "render:intro-mobile": "remotion render EarnedLineIntroMobile ../../earnedline-intro-video/earnedline-intro-mobile.mp4 --codec=h264 --crf=18 --concurrency=1 --image-format=png --chrome-mode=chrome-for-testing"
   }
 }
