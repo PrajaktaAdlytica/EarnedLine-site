@@ -22,6 +22,13 @@
     "desktop": "18s,1440x900,30fps,silent H.264",
     "mobile": "18s,540x1080,30fps,silent H.264"
   },
+  "final_qa": {
+    "desktop_routes": "27/27 returned 200; no horizontal overflow, missing images, or missing h1 at 1440x900",
+    "mobile_routes": "27/27 returned 200; no horizontal overflow, missing images, or missing h1 at 390x844",
+    "intro_renderer": "Live DOM text and SVG dashboard layers; background and fonts gate playback",
+    "intro_handoff": "18s completion scrolls to #home-hero and moves focus there",
+    "github": "https://github.com/PrajaktaAdlytica/EarnedLine-site"
+  },
   "boundaries": [
     "No production authentication or form delivery",
     "No real customer or financial records",
