@@ -15,7 +15,7 @@ export function IntroVideo(){
  // Pausing, leaving the viewport, and reduced-motion previews do not complete playback.
  useEffect(()=>{if(ended)skip()},[ended]);
  function replay(){if(reduced)return;elapsed.current=0;setTime(0);setEnded(false);setWanted(true)}
- function skip(){setWanted(false);const hero=document.getElementById('home-hero');hero?.scrollIntoView({behavior:reduced?'instant':'smooth',block:'start'});hero?.focus({preventScroll:true})}
+ function skip(){setWanted(false);const hero=document.getElementById('home-hero');if(!hero)return;const header=document.querySelector('.site-header');window.scrollTo({top:window.scrollY+hero.getBoundingClientRect().top-(header?.offsetHeight||0),behavior:reduced?'instant':'smooth'});hero.focus({preventScroll:true})}
  return <section className="entry-intro" ref={section} aria-label="EarnedLine opening film" data-renderer="live-dom" data-playing={playing} data-motion-reduced={reduced} data-ended={ended} data-prepared={prepared} data-time={time.toFixed(2)}>
   <div className="entry-film" ref={canvas}>
    {!prepared&&<picture className="entry-poster"><source media="(max-width:700px)" srcSet="/media/earnedline-intro-mobile-poster.jpg"/><img src="/media/earnedline-intro-poster.jpg" alt="EarnedLine evidence review above an alpine ridge." fetchPriority="high"/></picture>}
