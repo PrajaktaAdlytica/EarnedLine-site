@@ -221,3 +221,6 @@ html.motion-reduced{scroll-behavior:auto}html.motion-reduced *,html.motion-reduc
 .entry-transcript summary{cursor:pointer;width:fit-content}.entry-transcript p{max-width:920px;line-height:1.7;font-size:13px;padding:10px 0}
 #home-hero{scroll-margin-top:84px;outline:none}
 @media(max-width:700px){.entry-film{aspect-ratio:3/4}.entry-toolbar{padding:16px 20px;display:block}.entry-chapter{font-size:10px;letter-spacing:.8px}.entry-chapter small{font-size:9px}.entry-actions{margin-top:13px;gap:7px;justify-content:flex-end}.entry-actions button{font-size:11px;padding:10px 13px}.entry-transcript{padding:11px 20px}#home-hero{scroll-margin-top:74px}}
+.entry-native-canvas{position:absolute;inset:0;pointer-events:none;isolation:isolate}.entry-native-canvas img{max-width:none}.entry-native-canvas h1,.entry-native-canvas h2{margin:0}.entry-native-canvas main{display:block}.entry-native-canvas *{box-sizing:border-box}
+
+.entry-native-canvas small{color:inherit}.entry-native-canvas h1,.entry-native-canvas h2{letter-spacing:normal;line-height:1.15}.entry-native-canvas svg{flex-shrink:0}
