@@ -1,0 +1,9 @@
+{
+  "name": "Line Signature",
+  "construction": "Vector contours traced from the user-selected reference; no substituted font glyphs",
+  "reference": "selected-logo-reference.png",
+  "outlines": true,
+  "viewBox": "0 0 556 111",
+  "minimum_wordmark_width_px": 132,
+  "minimum_mark_size_px": 16
+}

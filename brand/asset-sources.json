@@ -1,0 +1,230 @@
+[
+  {
+    "asset": "fonts/Manrope-variable.ttf",
+    "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/manrope/Manrope%5Bwght%5D.ttf"
+  },
+  {
+    "asset": "fonts/IBMPlexSans-variable.ttf",
+    "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsans/IBMPlexSans%5Bwdth%2Cwght%5D.ttf"
+  },
+  {
+    "asset": "fonts/IBMPlexSans-Italic-variable.ttf",
+    "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsans/IBMPlexSans-Italic%5Bwdth%2Cwght%5D.ttf"
+  },
+  {
+    "asset": "icons/ui/arrow-right.svg",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/0.468.0/icons/arrow-right.svg"
+  },
+  {
+    "asset": "icons/ui/arrow-up-right.svg",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/0.468.0/icons/arrow-up-right.svg"
+  },
+  {
+    "asset": "icons/ui/arrow-left.svg",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/0.468.0/icons/arrow-left.svg"
+  },
+  {
+    "asset": "icons/ui/chevron-down.svg",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/0.468.0/icons/chevron-down.svg"
+  },
+  {
+    "asset": "icons/ui/chevron-right.svg",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/0.468.0/icons/chevron-right.svg"
+  },
+  {
+    "asset": "icons/ui/menu.svg",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/0.468.0/icons/menu.svg"
+  },
+  {
+    "asset": "icons/ui/x.svg",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/0.468.0/icons/x.svg"
+  },
+  {
+    "asset": "icons/ui/search.svg",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/0.468.0/icons/search.svg"
+  },
+  {
+    "asset": "icons/ui/check.svg",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/0.468.0/icons/check.svg"
+  },
+  {
+    "asset": "icons/ui/circle-check.svg",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/0.468.0/icons/circle-check.svg"
+  },
+  {
+    "asset": "icons/ui/circle-alert.svg",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/0.468.0/icons/circle-alert.svg"
+  },
+  {
+    "asset": "icons/ui/triangle-alert.svg",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/0.468.0/icons/triangle-alert.svg"
+  },
+  {
+    "asset": "icons/ui/info.svg",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/0.468.0/icons/info.svg"
+  },
+  {
+    "asset": "icons/ui/circle-help.svg",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/0.468.0/icons/circle-help.svg"
+  },
+  {
+    "asset": "icons/ui/plus.svg",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/0.468.0/icons/plus.svg"
+  },
+  {
+    "asset": "icons/ui/minus.svg",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/0.468.0/icons/minus.svg"
+  },
+  {
+    "asset": "icons/ui/download.svg",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/0.468.0/icons/download.svg"
+  },
+  {
+    "asset": "icons/ui/upload.svg",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/0.468.0/icons/upload.svg"
+  },
+  {
+    "asset": "icons/ui/external-link.svg",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/0.468.0/icons/external-link.svg"
+  },
+  {
+    "asset": "icons/ui/mail.svg",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/0.468.0/icons/mail.svg"
+  },
+  {
+    "asset": "icons/ui/lock-keyhole.svg",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/0.468.0/icons/lock-keyhole.svg"
+  },
+  {
+    "asset": "icons/ui/eye.svg",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/0.468.0/icons/eye.svg"
+  },
+  {
+    "asset": "icons/ui/eye-off.svg",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/0.468.0/icons/eye-off.svg"
+  },
+  {
+    "asset": "icons/ui/play.svg",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/0.468.0/icons/play.svg"
+  },
+  {
+    "asset": "icons/ui/pause.svg",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/0.468.0/icons/pause.svg"
+  },
+  {
+    "asset": "icons/ui/rotate-ccw.svg",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/0.468.0/icons/rotate-ccw.svg"
+  },
+  {
+    "asset": "icons/ui/file-text.svg",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/0.468.0/icons/file-text.svg"
+  },
+  {
+    "asset": "icons/ui/file-check.svg",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/0.468.0/icons/file-check.svg"
+  },
+  {
+    "asset": "icons/ui/files.svg",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/0.468.0/icons/files.svg"
+  },
+  {
+    "asset": "icons/ui/database.svg",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/0.468.0/icons/database.svg"
+  },
+  {
+    "asset": "icons/ui/scan-line.svg",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/0.468.0/icons/scan-line.svg"
+  },
+  {
+    "asset": "icons/ui/calendar-days.svg",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/0.468.0/icons/calendar-days.svg"
+  },
+  {
+    "asset": "icons/ui/clock-3.svg",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/0.468.0/icons/clock-3.svg"
+  },
+  {
+    "asset": "icons/ui/sliders-horizontal.svg",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/0.468.0/icons/sliders-horizontal.svg"
+  },
+  {
+    "asset": "icons/ui/list-filter.svg",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/0.468.0/icons/list-filter.svg"
+  },
+  {
+    "asset": "icons/ui/user-round.svg",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/0.468.0/icons/user-round.svg"
+  },
+  {
+    "asset": "icons/ui/users-round.svg",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/0.468.0/icons/users-round.svg"
+  },
+  {
+    "asset": "icons/ui/shield-check.svg",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/0.468.0/icons/shield-check.svg"
+  },
+  {
+    "asset": "icons/ui/credit-card.svg",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/0.468.0/icons/credit-card.svg"
+  },
+  {
+    "asset": "icons/ui/receipt-text.svg",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/0.468.0/icons/receipt-text.svg"
+  },
+  {
+    "asset": "icons/ui/chart-pie.svg",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/0.468.0/icons/chart-pie.svg"
+  },
+  {
+    "asset": "icons/ui/chart-column.svg",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/0.468.0/icons/chart-column.svg"
+  },
+  {
+    "asset": "icons/ui/git-compare-arrows.svg",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/0.468.0/icons/git-compare-arrows.svg"
+  },
+  {
+    "asset": "icons/ui/message-square.svg",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/0.468.0/icons/message-square.svg"
+  },
+  {
+    "asset": "icons/ui/link-2.svg",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/0.468.0/icons/link-2.svg"
+  },
+  {
+    "asset": "icons/ui/history.svg",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/0.468.0/icons/history.svg"
+  },
+  {
+    "asset": "icons/ui/copy.svg",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/0.468.0/icons/copy.svg"
+  },
+  {
+    "asset": "icons/ui/ellipsis.svg",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/0.468.0/icons/ellipsis.svg"
+  },
+  {
+    "asset": "icons/ui/ban.svg",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/0.468.0/icons/ban.svg"
+  },
+  {
+    "asset": "icons/ui/loader-circle.svg",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/0.468.0/icons/loader-circle.svg"
+  },
+  {
+    "asset": "icons/social/linkedin.svg",
+    "source": "https://brand.linkedin.com/in-logo",
+    "method": "Unmodified geometry and colors from supplied SVG symbol"
+  },
+  {
+    "asset": "icons/social/crunchbase.svg",
+    "source": "https://cdn.prod.website-files.com/687e6d0359c517be389ea464/699cd6b24bf1f2f372ff4740_cb_logo_bluevector%20(1).svg",
+    "discovery": "https://about.crunchbase.com/press"
+  },
+  {
+    "asset": "icons/social/crunchbase-icon.png",
+    "source": "https://cdn.prod.website-files.com/687e6d0359c517be389ea464/69257c9295545c9acddcaa0d_cb-webclip-256x256.png",
+    "discovery": "https://about.crunchbase.com/press",
+    "method": "Unmodified official website app icon"
+  }
+]
