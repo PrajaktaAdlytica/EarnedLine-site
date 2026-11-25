@@ -2,7 +2,7 @@
 
 This branch contains the prebuilt static website, all 27 prerendered routes, brand assets, fonts, favicons, and intro media. Hostinger does not need Node.js or a build command. Editable source remains on `main`.
 
-Source commit: `1e65acd`.
+Source commit: `2f9c196`.
 
 ## Connect
 
